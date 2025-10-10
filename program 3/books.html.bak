@@ -1,0 +1,70 @@
+<html>
+<head>
+  <title>Books</title>
+</head>
+<body>
+  <center><h1>Books Library</h1>
+  <img src="alchemist.jpg" alt="Book 1" width="150">
+  <img src="web.jpg" alt="Book 2" width="150">
+  <img src="harry potter.jpg" alt="Book 3" width="150">
+  <img src="rich dad poor dad.jpg" alt="Book 4" width="150">
+  <img src="python.jpg" alt="Book 5" width="150">
+  </center>
+
+  <ul>
+    <li><a href="#most-read">Top 5 Most Read Books</a></li><br>
+	<li><a href="#contact">Contact</a></li><br>
+	<li><a href="#book availability">Book Availability</a></li><br>
+  </ul>
+
+  <h2>Book Categories :</h2>
+  <dl>
+    <dt>Fiction</dt>
+    <dd>Stories based on imagination</dd>
+    <dt>Science</dt>
+    <dd>Books about physics, chemistry, biology</dd>
+    <dt>Technology</dt>
+    <dd>Books about computers, programming, and modern innovations</dd>
+  </dl>
+
+  <h2 id="most-read">Top 5 Most Read Books</h2>
+  <ol>
+    <li>The Alchemist</li>
+    <li>Web Programming</li>
+    <li>Harry Potter</li>
+    <li>Rich Dad Poor Dad</li>
+    <li>Python Basics</li>
+  </ol>
+
+  <h2 id="book availability">Book Availability</h2>
+  <table border="1" cellpadding="5">
+    <tr>
+      <th>Book Title</th>
+      <th>Author</th>
+      <th>Available Copies</th>
+    </tr>
+    <tr>
+      <td>The Alchemist</td>
+      <td>Paulo Coelho</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Harry Potter</td>
+      <td>J.k. Rowling</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Learn python programming</td>
+      <td>fabrizio Romano</td>
+      <td>7</td>
+    </tr>
+  </table>
+  <br>
+  <hr>
+  <h2 id="contact">Contact us :</h2>
+    <p>Email: library@gmail.com</p>
+    <p>Phone: 1234567890</p>
+    <p>Address: Mesce , Kuttippuram</p>
+  <p><a href="index.html">Back to Home</a></p>
+</body>
+</html>

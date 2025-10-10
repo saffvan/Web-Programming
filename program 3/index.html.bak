@@ -1,0 +1,11 @@
+<html>
+<head>
+  <title>My Library - Home</title>
+</head>
+<body>
+  <center><h1>Welcome to My Library</h1>
+  <img src="library.jpg">
+  <p>This is a public library.</p>
+  <a href="books.html">Go to Books Library</a></center>
+</body>
+</html>
