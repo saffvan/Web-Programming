@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fruits</title>
+	<style>
+		body {
+			background-color: #f9ffe6;
+			margin: 0;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			color: #333;
+		}
+
+		header {
+			background: linear-gradient(90deg, #ff6f61, #ffcc33);
+			padding: 20px 0;
+			text-align: center;
+			color: white;
+			font-size: 2.5em;
+			letter-spacing: 2px;
+			font-weight: bold;
+			text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+		}
+
+		p {
+			color: darkgreen;
+			font-size: 18px;
+			font-style: italic;
+			line-height: 1.6;
+			padding: 20px;
+			text-align: justify;
+		}
+
+		ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 20px auto;
+			width: fit-content;
+		}
+
+		ul li {
+			font-size: 20px;
+			font-weight: bold;
+			margin: 8px 0;
+			padding: 8px 16px;
+			border-radius: 8px;
+			transition: 0.3s;
+			cursor: pointer;
+		}
+
+		#li1 { color: red; background-color: #ffe6e6; }
+		#li2 { color: orange; background-color: #fff2e0; }
+		#li3 { color: limegreen; background-color: #e9ffe6; }
+		#li4 { color: purple; background-color: #f4e6ff; }
+
+		ul li:hover {
+			transform: scale(1.05);
+			box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+		}
+
+		table {
+			border-collapse: collapse;
+			width: 60%;
+			margin: 30px auto;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			border-radius: 10px;
+			overflow: hidden;
+		}
+
+		th, td {
+			padding: 12px 16px;
+			text-align: left;
+		}
+
+		th {
+			background-color: #6a1b9a;
+			color: white;
+			font-size: 18px;
+		}
+
+		tr:nth-child(even) {
+			background-color: #f9f2ff;
+		}
+
+		tr:hover {
+			background-color: #e1bee7;
+		}
+
+		footer {
+			background-color: #6a1b9a;
+			color: white;
+			text-align: center;
+			padding: 15px 0;
+			font-size: 16px;
+			margin-top: 40px;
+		}
+
+		@media (max-width: 768px) {
+			table {
+				width: 90%;
+			}
+			header {
+				font-size: 2em;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<header>🍎 FRUITS 🍇</header>
+
+	<p>
+		Fruits are nature’s sweet and nutritious gifts, packed with vitamins, minerals, and fiber that help keep our bodies healthy.
+		They come in a wide variety of colors, flavors, and textures—from the juicy sweetness of mangoes and oranges to the crisp freshness of apples and pears.
+		Eating a variety of fruits every day can boost the immune system, improve digestion, and provide natural energy.
+		Whether enjoyed fresh, blended into smoothies, or added to salads and desserts, fruits are an essential part of a balanced diet and a delicious way to stay healthy.
+	</p>
+
+	<ul>
+		<li id="li1">🍎 APPLE</li>
+		<li id="li2">🍊 ORANGE</li>
+		<li id="li3">🍌 BANANA</li>
+		<li id="li4">🍇 GRAPES</li>
+		<li>🥭 MANGO</li>
+	</ul>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Reg No</th>
+				<th>Name</th>
+				<th>Marks</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr><td>1234</td><td>Nia</td><td>98</td></tr>
+			<tr><td>4343</td><td>Lee</td><td>95</td></tr>
+			<tr><td>3663</td><td>Zia</td><td>88</td></tr>
+			<tr><td>1122</td><td>Ria</td><td>78</td></tr>
+		</tbody>
+	</table>
+
+	<footer>
+		© 2025 Fruits World | Designed with ❤️ by You
+	</footer>
+
+</body>
+</html>

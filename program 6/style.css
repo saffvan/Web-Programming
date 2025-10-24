@@ -1,0 +1,28 @@
+body{
+		background-color:#f9ffe6;
+	}
+h1{
+	text-align: center;
+	color: #d32f2f;
+	font-style: oblique; 
+	}
+p{
+	color: darkgreen;
+	font-size: 18px;
+	font-style:italic;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.6; 
+	padding: 12;
+	}
+#li1{
+	color:red;
+	}
+#li2{
+	color:orange;
+	}
+#li3{
+	color:lime;
+	}
+#li4{
+	color:purple;
+	}
