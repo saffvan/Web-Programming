@@ -1,0 +1,100 @@
+<html>
+<head>
+    <title>Fruits</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #f9ffe6;
+        }
+        p {
+            color: darkgreen;
+            font-size: 18px;
+            font-style: italic;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            padding: 12px;
+        }
+        ul {
+            list-style-type: circle;
+        }
+        table {
+            border-collapse: collapse;
+            width: 40%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: purple;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        #tr1:hover { background-color: #F4BB44; }
+        #tr2:hover { background-color: #7B3F00; }
+        #tr3:hover { background-color: #8fbc8f; }
+        #tr4:hover { background-color: #C83F49; }
+    </style>
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="text-align:center; color:#d32f2f; font-style:oblique;">FRUITS</h1>
+
+    <p style="border:2px dashed #4CAF50; padding:10px;">
+        Fruits are nature’s sweet and nutritious gifts, packed with vitamins, minerals, and fiber that help keep our bodies healthy.<br>
+        They come in a wide variety of colors, flavors, and textures—from the juicy sweetness of mangoes and oranges to the crisp freshness of apples and pears.<br>
+        Eating a variety of fruits every day can boost the immune system, improve digestion, and provide natural energy.<br>
+        Whether enjoyed fresh, blended into smoothies, or added to salads and desserts, fruits are an essential part of a balanced diet and a delicious way to stay healthy.
+    </p>
+
+    <ul>
+        <li id="li1">APPLE</li>
+        <li id="li2">ORANGE</li>
+        <li id="li3">BANANA</li>
+        <li id="li4">GRAPES</li>
+        <li>etc...</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>No:</th>
+                <th>Name</th>
+                <th>Colour</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="tr1">
+                <td>1</td>
+                <td>Mango</td>
+                <td>Yellow</td>
+            </tr>
+            <tr id="tr2">
+                <td>2</td>
+                <td>Chicku</td>
+                <td>Brown</td>
+            </tr>
+            <tr id="tr3">
+                <td>3</td>
+                <td>Jackfruit</td>
+                <td>Green</td>
+            </tr>
+            <tr id="tr4">
+                <td>4</td>
+                <td>Strawberry</td>
+                <td>Red</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
